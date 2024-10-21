@@ -1,11 +1,15 @@
 import Counter from "./Counter";
 import Logo from "./Logo";
 
-export default function Header() {
+// eslint-disable-next-line react/prop-types
+export default function Header({ totalNumberOfItems, numberOfItemsPacked }) {
   return (
     <header>
       <Logo />
-      <Counter />
+      <Counter
+        totalNumberOfItems={totalNumberOfItems}
+        numberOfItemsPacked={numberOfItemsPacked}
+      />
     </header>
   );
 }
