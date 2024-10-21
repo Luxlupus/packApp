@@ -78,7 +78,7 @@ img {
   grid-row: 2 / 3;
   background-color: #fff;
   overflow-y: scroll;
-  scrollbar-color: red orange;
+  scrollbar-color: #231d15 #6e6251;
   scrollbar-width: thin;
   position: relative;
 }
@@ -183,6 +183,10 @@ label > label {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+}
+
+.empty-view {
+  margin: 35% 35%;
 }
 
 h3 {
